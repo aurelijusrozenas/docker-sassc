@@ -1,5 +1,4 @@
 FROM alpine:3.4
-MAINTAINER Arnau Siches <arnau@ustwo.com>
 
 # Install dependencies
 RUN apk add --update curl g++ make libstdc++
@@ -21,4 +20,3 @@ RUN rm -rf /var/cache/apk/*
 RUN apk del curl g++ make
 
 ENTRYPOINT ["/usr/local/bin/sassc"]
-
