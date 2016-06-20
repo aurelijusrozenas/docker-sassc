@@ -20,7 +20,5 @@ RUN rm -rf /usr/local/libsass-$VERSION /usr/local/sassc-$VERSION
 RUN rm -rf /var/cache/apk/*
 RUN apk del curl g++ make
 
-WORKDIR /sassdir
-
 ENTRYPOINT ["/usr/local/bin/sassc"]
 
