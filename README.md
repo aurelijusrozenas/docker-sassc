@@ -16,7 +16,9 @@ To see what other `sassc` options are available:
 $ docker run ubuntudesign/sassc --help
 ```
 
-*Credits: This image is a fork of [ustwo/docker-sass](https://github.com/ustwo/docker-sass) and makes use of [docker](https://www.docker.com/), [alpine](https://hub.docker.com/_/alpine/), [libsass](http://sass-lang.com/libsass) and [sassc](https://github.com/sass/sassc).*
+---
 
 With ♥ from [Canonical](http://www.canonical.com).
+
+*Credits: This image is a fork of [ustwo/docker-sass](https://github.com/ustwo/docker-sass) and makes use of [docker](https://www.docker.com/), [alpine](https://hub.docker.com/_/alpine/), [libsass](http://sass-lang.com/libsass) and [sassc](https://github.com/sass/sassc).*
 
