@@ -1,6 +1,6 @@
 # [sassc docker image](https://hub.docker.com/r/ubuntudesign/sassc/)
 
-This is a minimal [docker](https://www.docker.com/) image containing the [SassC](https://github.com/sass/sassc) binary.
+This is a tiny (4MB) [docker](https://www.docker.com/) image containing the [SassC](https://github.com/sass/sassc) binary.
 
 ## Usage
 
