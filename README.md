@@ -10,7 +10,7 @@ This is a minimal [docker](https://www.docker.com/) image containing the
 ## Usage
 
 ```sh
-$ docker run -v $(pwd):/styles ubuntudesign/sassc styles.scss > styles.css
+$ docker run -v $(pwd):/files ubuntudesign/sassc /files/styles.scss > styles.css
 ```
 
 ## Lineage
