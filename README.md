@@ -1,29 +1,24 @@
-# ustwo sassc
+# sassc docker image
 
-This image is based on [Alpine](https://alpinelinux.org) to ensure a small base
-image.
+This is a minimal [docker](https://www.docker.com/) image containing the
+[SassC](https://github.com/sass/sassc) binary.
 
 ## Versions
 
 * 3.3.6, latest
-* 3.3.0
-* 3.2.5
-
-## Assumptions
-
-* Workdir: `/home/ustwo`.
 
 ## Usage
 
 ```sh
-$ docker run --rm -t \
-    -v $(pwd)/input.scss:/home/ustwo/input.scss \
-    ustwo/sass:3.3.6 \
-      --sourcemap \
-      --style compressed \
-      input.scss output.css
+$ docker run -v $(pwd):/styles ubuntudesign/sassc styles.scss > styles.css
 ```
 
-## Maintainers
+## Lineage
 
-* Arnau Siches (arnau@ustwo.com)
+This image is a fork of [ustwo/docker-sass](https://github.com/ustwo/docker-sass)
+and makes use of:
+
+- [docker](https://www.docker.com/)
+- [alpine](https://hub.docker.com/_/alpine/)
+- [libsass](http://sass-lang.com/libsass)
+- [sassc](https://github.com/sass/sassc)
